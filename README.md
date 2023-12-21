@@ -27,7 +27,8 @@ Launch the connection check node:
    ```bash
    roslaunch connection_check network.launch
    ```
-The script will continuously check the network connection and ROS master status and publish the result to the **/connection** topic.
+The script will continuously check the network connection between two devices and publish the result to the **/connection** topic.
+
 **Notes**
 
 Make sure to replace **192.168.8.125** with the actual IP address you want to ping in the **remote_host** variable.
